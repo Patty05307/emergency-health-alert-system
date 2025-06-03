@@ -84,7 +84,8 @@ This project was developed for educational purposes during the Vibe Coding Hacka
 
 ---
 
-🔗 Deployed Frontend: [https://your-netlify-link](https://your-netlify-link)
+🔗  Deployed Frontend: [https://melodic-gumption-05fdce.netlify.app](https://melodic-gumption-05fdce.netlify.app)
+
 
 🔗 Deployed Backend: [https://your-backend-link](https://your-backend-link)
 
