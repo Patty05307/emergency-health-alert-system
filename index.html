@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Health Alert System</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha256-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC0="
+    crossorigin=""
+  />
+</head>
+<body>
+  <header>
+    <h1>Emergency Health Alert System</h1>
+    <button id="toggleMode">🌙</button>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Fast, Smart, Life-saving</h2>
+      <p>Instantly notify nearby hospitals in emergencies.</p>
+      <button id="sendAlert">🚨 Send Emergency Alert</button>
+    </section>
+
+    <section class="map-section">
+      <h3>Your Location</h3>
+      <div id="map"></div>
+    </section>
+
+    <section class="response">
+      <h3>Response</h3>
+      <div id="responseBox">Awaiting alert...</div>
+    </section>
+  </main>
+
+  <script
+    src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha256-gZ5Qo7q2DQ1D+2f9z/MoQ8zSQ9s8zIO6zHfJc+/M9S8="
+    crossorigin=""
+  ></script>
+  <script src="script.js"></script>
+</body>
+</html>
